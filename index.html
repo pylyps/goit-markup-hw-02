@@ -15,36 +15,40 @@
   </head>
   <body>
     <header>
-      <!--Робимо верхню рамку-->
-      <nav>
-        <a class="logo" href="./index.html" rel="noopener nofollow noreferrer"
-          >Web<span class="logo-span">Studio</span></a
-        >
-        <ul>
-          <li class="li">
-            <a class="navigation-header current" href="./index.html">Студия</a>
-          </li>
-          <li class="li">
-            <a class="navigation-header" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li class="li">
-            <a class="navigation-header" href="#">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="contacts">
-        <ul>
-          <li class="li">
-            <a class="navigation-contacts" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="li">
-            <a class="navigation-contacts" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
+      <div class="container">
+        <!--Робимо верхню рамку-->
+        <nav>
+          <a class="logo" href="./index.html" rel="noopener nofollow noreferrer"
+            >Web<span class="logo-span">Studio</span></a
+          >
+          <ul>
+            <li class="li">
+              <a class="navigation-header current" href="./index.html"
+                >Студия</a
+              >
+            </li>
+            <li class="li">
+              <a class="navigation-header" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="li">
+              <a class="navigation-header" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="contacts">
+          <ul>
+            <li class="li">
+              <a class="navigation-contacts" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="li">
+              <a class="navigation-contacts" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -52,144 +56,152 @@
 
     <main>
       <section class="hero grey">
-        <h1 class="hero-header">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="button primary">Заказать услугу</button>
+        <div class="container">
+          <h1 class="hero-header">Эффективные решения для вашего бизнеса</h1>
+          <button type="button" class="button primary">Заказать услугу</button>
+        </div>
       </section>
 
       <!-- Описание преимуществ -->
       <section class="advantage">
-        <h2 hidden>Преимущества</h2>
-        <ul>
-          <li class="li">
-            <h3 class="advant-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
-            <p class="advant-text">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li class="li">
-            <h3 class="advant-title">ПУНКТУАЛЬНОСТЬ</h3>
-            <p class="advant-text">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li class="li">
-            <h3 class="advant-title">ПЛАНИРОВАНИЕ</h3>
-            <p class="advant-text">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li class="li">
-            <h3 class="advant-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
-            <p class="advant-text">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 hidden>Преимущества</h2>
+          <ul class="advant-list">
+            <li class="li">
+              <h3 class="advant-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+              <p class="advant-text">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="li">
+              <h3 class="advant-title">ПУНКТУАЛЬНОСТЬ</h3>
+              <p class="advant-text">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="li">
+              <h3 class="advant-title">ПЛАНИРОВАНИЕ</h3>
+              <p class="advant-text">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="li">
+              <h3 class="advant-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+              <p class="advant-text">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Чем занимаемся -->
       <section class="work">
-        <h2 class="work-head">Чем мы занимаемся</h2>
-        <ul>
-          <li class="work-pic li">
-            <img
-              src="./images/Coders1.jpg"
-              alt="Мы занимаемся кодингом"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li class="work-pic li">
-            <img
-              src="./images/Phones2.jpg"
-              alt="Мы занимаемся настройкой телефонов"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li class="work-pic li">
-            <img
-              src="./images/Raduga3.jpg"
-              alt="Мы делаем радугу"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="work-head">Чем мы занимаемся</h2>
+          <ul class="work-list">
+            <li class="work-pic li">
+              <img
+                src="./images/Coders1.jpg"
+                alt="Мы занимаемся кодингом"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="work-pic li">
+              <img
+                src="./images/Phones2.jpg"
+                alt="Мы занимаемся настройкой телефонов"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="work-pic li">
+              <img
+                src="./images/Raduga3.jpg"
+                alt="Мы делаем радугу"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!--  Команда-->
       <section class="team">
-        <h2 class="team-header">Наша команда</h2>
-        <ul>
-          <li class="li">
-            <figure class="team-pic">
-              <img
-                src="./images/Igor2.jpg"
-                alt="Фотография Игоря Демьяненко"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <h3 class="team-title">Игорь Демьяненко</h3>
-                <p lang="en" class="team-par">Product Designer</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="li">
-            <figure class="team-pic">
-              <img
-                src="./images/Olga2.jpg"
-                alt="Фотография Ольги Репиной"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <h3 class="team-title">Ольга Репина</h3>
-                <p lang="en" class="team-par">Frontend Developer</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="li">
-            <figure class="team-pic">
-              <img
-                src="./images/Nikolay2.jpg"
-                alt="Фотография Николая Тарасова"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <h3 class="team-title">Николай Тарасов</h3>
-                <p lang="en" class="team-par">Marketing</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="li">
-            <figure class="team-pic">
-              <img
-                src="./images/Michail2.jpg"
-                alt="Фотография Михаила Ермакова"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <h3 class="team-title">Михаил Ермаков</h3>
-                <p lang="en" class="team-par">UI Designer</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="team-header">Наша команда</h2>
+          <ul class="team-list">
+            <li class="li">
+              <figure class="team-pic">
+                <img
+                  src="./images/Igor2.jpg"
+                  alt="Фотография Игоря Демьяненко"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h3 class="team-title">Игорь Демьяненко</h3>
+                  <p lang="en" class="team-par">Product Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="li">
+              <figure class="team-pic">
+                <img
+                  src="./images/Olga2.jpg"
+                  alt="Фотография Ольги Репиной"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h3 class="team-title">Ольга Репина</h3>
+                  <p lang="en" class="team-par">Frontend Developer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="li">
+              <figure class="team-pic">
+                <img
+                  src="./images/Nikolay2.jpg"
+                  alt="Фотография Николая Тарасова"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h3 class="team-title">Николай Тарасов</h3>
+                  <p lang="en" class="team-par">Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="li">
+              <figure class="team-pic">
+                <img
+                  src="./images/Michail2.jpg"
+                  alt="Фотография Михаила Ермакова"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h3 class="team-title">Михаил Ермаков</h3>
+                  <p lang="en" class="team-par">UI Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <!-- Футтер -->
 
     <footer class="footer grey">
-      <div>
+      <div class="container">
         <a class="logo" href="./index.html"
           >Web<span class="logo-footer">Studio</span></a
         >

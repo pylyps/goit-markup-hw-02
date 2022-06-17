@@ -9,19 +9,28 @@
     --color-bg-secondary:#F5F4FA;
     --color-border:#EEEEEE
 }
-
+*,
+*::before,
+*::after{box-sizing: border-box;}
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
     color: var(--color-text-main);
 }
+.container{width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin: auto;
+outline: auto;}
 .li {
     list-style: none;
 }
 /* Верхня рамка */
+
 .navigation-header {
     text-decoration: none;
+    color: var(--color-text-main);
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;}
@@ -39,6 +48,7 @@ body {
     font-size: 26px;
     line-height: 0.12;
     letter-spacing: 0.03em;
+    padding: 24px 93px 25px 215px;
 }
 .logo .logo-span{color: var(--color-text-main);}
 .logo-footer{color: var(--color-button-prima);}
@@ -55,6 +65,7 @@ body {
 .hero{
 text-align: center;
 align-items: center;
+
 }
 .hero-header {
     color: var(--color-button-prima);
@@ -63,20 +74,22 @@ align-items: center;
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    padding-top: 200px;
+    padding-bottom: 30px;
 }
 .grey {
     background-color: var(--color-bg-hero);
+    margin-bottom: 94px;
 }
 
 /* buttons */
 .button{
     display: inline-block;
     padding: 6px 22px;
-    height: 50px;
     font-size: 16px;
     border-radius: 4px;
-    text-align: center;
     cursor: pointer;
+    
    
 }
 .button.primary{
@@ -86,8 +99,9 @@ align-items: center;
     font-family: inherit;
     font-weight: 700;
     line-height: 1.88;
-    display: flex;
     letter-spacing: 0.06em;
+    margin: auto;
+    margin-bottom: 200px;
 
 }
 
@@ -119,6 +133,31 @@ align-items: center;
     }
 
 /* Описание преимуществ */
+.advant-list, .work-list, .team-list{
+    display: flex;
+}
+.advant-title,
+.advant-text{margin-right: 30px;
+    text-align: left;
+    padding: 0px;
+}
+.advant-title:first-child
+{
+    margin-right: 0px;
+}
+
+/* why???? */
+.advant-title:last-child
+ {
+    margin-right: 0px;
+}
+.advant-title:first-child
+
+ {
+     margin-right: 0px;
+ }
+
+
 .advant-title.work.team-header.team-title{color:var(--color-text-main);
 letter-spacing: 0.03em;}
 .advant-text.team-par.portfolio-class {
@@ -156,6 +195,8 @@ letter-spacing: 0.03em;}
     text-align: center;
     }
 
+
+
 /* Футтер */
 
 .address{font-weight: 400;
@@ -172,7 +213,7 @@ letter-spacing: 0.03em;}
     line-height: 1.71;
     text-decoration: none;}
 
-.footer .logo{padding: 60px 1240px 161px 215px;}
+
 
 /* portfolio */
 .portfolio-figure{border:1px solid var(--color-border); 
