@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,11 +24,11 @@
     <header>
       <div class="container">
         <!--Робимо верхню рамку-->
-        <nav>
+        <nav class="nav">
           <a class="logo" href="./index.html" rel="noopener nofollow noreferrer"
             >Web<span class="logo-span">Studio</span></a
           >
-          <ul>
+          <ul class="nav-list">
             <li class="li">
               <a class="navigation-header current" href="./index.html"
                 >Студия</a
@@ -34,21 +41,21 @@
               <a class="navigation-header" href="#">Контакты</a>
             </li>
           </ul>
+          <div class="contacts">
+            <ul class="contacts-list">
+              <li class="li">
+                <a class="navigation-contacts" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="li">
+                <a class="navigation-contacts" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </div>
         </nav>
-        <div class="contacts">
-          <ul>
-            <li class="li">
-              <a class="navigation-contacts" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="li">
-              <a class="navigation-contacts" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
-        </div>
       </div>
     </header>
 
